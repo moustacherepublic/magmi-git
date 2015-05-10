@@ -5,8 +5,8 @@
  * Date: 26/03/15
  * Time: 18:17
  */
-
-require_once(dirname(dirname(__DIR__)).'/inc/magmi_config.php');
+require_once('basedefs.php');
+require_once('magmi_config.php');
 
 function getSessionConfig()
 {
